@@ -1,0 +1,90 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 100px 0 200px;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  p{
+      font-family: 'Quattrocento';
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 34px 46px;
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 120%;
+  }
+  
+  .container {
+    font-family: 'Poppins' ;
+
+  }
+  
+
+
+
+  
+ .parent1{
+      background-image: url('../picture/bicad-media-UnI8AGe1634-unsplash.jpg');
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      
+
+
+  }
+  .parent1 div{
+    width: 644px;
+  }
+
+
+
+  .child1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 190%;
+    color: white;
+    padding: 30px;
+    
+  }
+
+  .child2{
+    padding: 0px 30px 0px;
+    
+  }
+
+  .child3{  
+    padding: 0px 30px 0px;
+    
+
+  }
+
+  
+
+
+ 
+  li a:hover {
+    background-color: #111;
+  }
+
+
