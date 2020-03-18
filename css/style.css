@@ -124,35 +124,46 @@
 
   .caroussel-parent{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 180px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
-.C-child1{
-  width: 178px; 
-  height: 350px ;
+.C-child{
+  width: 378px; 
+  height: 550px ;
 }
-.C-child2{
-  width: 178px; 
-  height: 350px ;
+
+.C-cap{
+  padding: 15px;
+  text-align: left;
 }
-.C-child3{
-  width: 178px; 
-  height: 350px ;
+
+div.C-child img{
+  width: 100%;
+  height: auto;
 }
 
 
 
-#esd-parent{
-  position: relative;
+
+
+
+/*-------Frenchy's----------*/
+
+.esd-parent{
+
 }
 
 .esd-div-image{
   padding: 220px;
+  position: relative;
 }
 
 .esd-image{
+ 
   align-items: center;
  
  object-fit: cover;
@@ -163,10 +174,105 @@
 .esd-caption{
   background-color: #F2F3F3;
   position: absolute;
-  top: 1050px;
+  top: 2250px;
   left: 400px;
 
   width: 756px;
   height: 291px;
+  margin-bottom: 100px;
 
 }
+
+/*---------The botanic garden, house of yes and smorgasburg--------------*/
+
+
+.Parent3{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 180px;
+  
+
+}
+.Parent3 div{
+  border: 1px #ccc solid;
+  padding:10px
+  margin-bottom: 180px;
+}
+
+.botanicGarden{
+  width: 421px;
+  height: 550px;
+
+}
+div.botanicGarden img{
+  width: 100%;
+  height: 280;
+  object-fit: fill;
+
+}
+
+.houseofyes{
+  width: 421px;
+  height: 550px;
+
+}
+div.houseofyes img{
+  width: 100%;
+  height: auto;
+}
+
+.smorgasburg{
+  width: 421px;
+  height: 550px;
+}
+div.smorgasburg img{
+  width: 100%;
+  height: 280;
+}
+
+/**---------------Blog (The yogi's guide and Pizza tour)-------*/
+
+
+
+.Parent4{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 180px;
+}
+
+.Parent4 div{
+  border: 1px #ccc solid;
+  padding:10px
+  margin-bottom: 180px;
+}
+
+.doguide1{
+  width: 533px;
+  height: 700px;
+}
+div.doguide1 img{
+  width: 100%;
+  height: 533;
+  object-fit: fill;
+
+}
+
+.doguide2{
+  width: 533px;
+  height: 700px;
+}
+
+div.doguide2 img{
+  width: 100%;
+  height: 533;
+  object-fit: fill;
+
+}
+
+
+div.doguide:hover {
+  border: 1px solid #777;
+}
+
